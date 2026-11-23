@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* Tokens (contraste verificado para WCAG AA nos dois temas — ver docs/DECISOES.md). */
+:root {
+  --bg: #fafaf7;
+  --surface: #ffffff;
+  --surface-2: #e6f2ec;
+  --fg: #1b1f23;
+  --muted: #4a5560;
+  --primary: #1f5e4b;
+  --primary-hover: #174a3b;
+  --on-primary: #ffffff;
+  --accent: #f2b84b;
+  --on-accent: #1b1f23;
+  --line: #d5ddd8;
+  --line-strong: #6b7c74;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101513;
+    --surface: #18201c;
+    --surface-2: #1f2d27;
+    --fg: #e9eeeb;
+    --muted: #a9b6af;
+    --primary: #7fd1ae;
+    --primary-hover: #a3e0c5;
+    --on-primary: #0b1f17;
+    --accent: #f2b84b;
+    --on-accent: #1b1f23;
+    --line: #2c3a33;
+    --line-strong: #7e8f87;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-on-primary: var(--on-primary);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+}
+
+:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@utility btn {
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-lg px-4 py-2 font-semibold no-underline transition-colors;
+}
+@utility btn-primary {
+  @apply btn bg-primary text-on-primary hover:bg-primary-hover;
+}
+@utility btn-secondary {
+  @apply btn border-line-strong text-fg hover:bg-surface-2 border;
+}
+@utility chip {
+  @apply bg-surface-2 text-fg inline-block rounded-full px-3 py-1 text-sm;
+}
+@utility prose-link {
+  @apply text-primary underline underline-offset-2 hover:no-underline;
+}

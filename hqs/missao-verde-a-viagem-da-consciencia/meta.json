@@ -1,0 +1,12 @@
+{
+  "titulo": "Missão Verde: A Viagem da Consciência",
+  "temas": ["Educação ambiental", "Reciclagem", "Preservação"],
+  "autores": ["Ernandes"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Capa: quatro jovens sorridentes em uma praia urbana cheia de lixo, ao lado de lixeiras de coleta seletiva e de uma placa com as palavras reduzir, reutilizar, reciclar, respeitar e preservar.",
+  "pdf": "missao-verde-a-viagem-da-consciencia.pdf",
+  "geradaComIA": true,
+  "publicada": true
+}

@@ -1,0 +1,13 @@
+{
+  "titulo": "O Futuro Começa Agora!",
+  "subtitulo": "Juntos por um planeta melhor",
+  "temas": ["Educação ambiental", "Sustentabilidade", "Reciclagem"],
+  "autores": ["Nailson"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Capa: um menino segura uma placa com os dizeres “Cuidar hoje para ter amanhã!” ao lado de um robô verde que segura uma muda de planta, em uma paisagem com árvores, rio, painéis solares e turbinas eólicas.",
+  "pdf": "o-futuro-comeca-agora.pdf",
+  "geradaComIA": true,
+  "publicada": true
+}

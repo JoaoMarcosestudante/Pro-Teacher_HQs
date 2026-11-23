@@ -1,0 +1,10 @@
+{
+  "titulo": "HQ de Teste",
+  "temas": ["Teste", "Ética"],
+  "autores": ["Autoria Fictícia de Teste"],
+  "ano": 2026,
+  "capa": "capa.png",
+  "capaAlt": "Imagem mínima usada apenas em testes automatizados.",
+  "pdf": "hq-de-teste.pdf",
+  "publicada": true
+}

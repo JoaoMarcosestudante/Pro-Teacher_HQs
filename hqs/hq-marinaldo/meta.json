@@ -1,0 +1,12 @@
+{
+  "titulo": "TODO: título a confirmar com o autor",
+  "temas": ["A confirmar"],
+  "autores": ["Marinaldo"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Capa com figuras luminosas em um cenário cósmico, com galáxias, planetas e a Terra.",
+  "pdf": "hq-marinaldo.pdf",
+  "geradaComIA": true,
+  "publicada": false
+}

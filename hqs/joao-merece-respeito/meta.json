@@ -1,0 +1,13 @@
+{
+  "titulo": "João Merece Respeito",
+  "subtitulo": "Ninguém deve ser maltratado por ser diferente.",
+  "temas": ["Bullying", "Respeito", "Empatia", "Inclusão", "Amizade"],
+  "autores": ["Hundriana"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Capa: o menino João, de mochila, sorri timidamente; à esquerda, colegas zombam dele em uma cena de bullying; à direita, outros colegas o acolhem.",
+  "pdf": "joao-merece-respeito.pdf",
+  "geradaComIA": true,
+  "publicada": true
+}

@@ -1,0 +1,20 @@
+# dependências e build
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# assets gerados por scripts/sync-assets.ts (a fonte da verdade é hqs/)
+public/hqs/
+
+# ambiente e temporários
+.env
+.env*.local
+.vercel
+coverage/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+node_modules

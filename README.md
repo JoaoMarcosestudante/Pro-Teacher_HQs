@@ -50,28 +50,38 @@ Depois das 8 etapas, cada professor fez o acabamento no **Canva** (diagramação
 
 ## 📖 HQs disponíveis
 
-> ⚠️ Preencha os links à medida que as HQs forem adicionadas ao repositório.
+| HQ | Autoria | Temas | Arquivos |
+|----|---------|-------|----------|
+| *Aruã e a Linguagem dos Símbolos* | Romário | Cultura indígena, saberes tradicionais, tecnologia | [pasta](hqs/arua-e-a-linguagem-dos-simbolos/) |
+| *Missão Verde: A Viagem da Consciência* | Ernandes | Educação ambiental, reciclagem, preservação | [pasta](hqs/missao-verde-a-viagem-da-consciencia/) |
+| *O Futuro Começa Agora!* | Nailson | Educação ambiental, sustentabilidade, reciclagem | [pasta](hqs/o-futuro-comeca-agora/) |
+| *João Merece Respeito* | Hundriana | Bullying, respeito, empatia, inclusão, amizade | [pasta](hqs/joao-merece-respeito/) |
+| *Palavras Machucam* | Josiane | Bullying, respeito, empatia | [pasta](hqs/palavras-machucam/) |
+| *Quem Vê Também Pode Ajudar* | Gustavo Borges | Bullying, respeito, empatia, coragem | [pasta](hqs/quem-ve-tambem-pode-ajudar/) |
+| *Respeito no Recreio* | David Cleiton | Bullying, respeito, amizade | [pasta](hqs/respeito-no-recreio/) |
+| *A Última Aula do Professor Severo* | a confirmar | Práticas pedagógicas, diversidade, metodologias ativas | [pasta](hqs/a-ultima-aula-do-professor-severo/) |
+| *O Professor Tradicional* | a confirmar | Formação docente, práticas pedagógicas | [pasta](hqs/o-professor-tradicional/) |
+| *A Saga do PROFCOMP 2026* | a confirmar | Formação docente, tecnologias digitais | [pasta](hqs/a-saga-do-profcomp-2026/) |
+| *A Saga do PROFCOMP 2026* | Waldo | Formação docente, tecnologias digitais, Amazônia | [pasta](hqs/a-saga-do-profcomp-2026-waldo/) |
+| *Saga do PROFCOMP* | Vienne | Formação docente, tecnologias digitais | [pasta](hqs/saga-do-profcomp-vienne/) |
 
-| HQ | Tema | Leitura |
-|----|------|---------|
-| *Aruã e a Linguagem dos Símbolos* | Valorização da cultura indígena e integração entre saberes tradicionais e tecnologia | [Ler](#) |
-| *Missão Verde: A Jornada da Consciência* | Educação ambiental, preservação e reciclagem | [Ler](#) |
-| *A Saga do PROFCOMP 2026* | Experiências formativas e transformação pelo uso de tecnologias digitais | [Ler](#) |
-| *(adicionar demais HQs)* | | |
+Há ainda uma HQ de Marinaldo aguardando a confirmação do título (`hqs/hq-marinaldo/`, não publicada). Títulos e autoria foram transcritos das capas e dos nomes dos arquivos enviados; os temas foram inferidos das capas e devem ser confirmados pelos autores.
 
 ## 🗂️ Estrutura do repositório
-
-> Sugestão de organização. Ajuste conforme o repositório evoluir.
 
 ```
 .
 ├── README.md
-├── hqs/
-│   ├── <nome-da-hq>/
-│   │   ├── <nome-da-hq>.pdf
-│   │   └── capa.png
-│   └── ...
-└── LICENSE
+├── CONTRIBUTING.md        # como adicionar uma HQ
+├── hqs/                   # acervo: fonte da verdade do site
+│   └── <slug>/
+│       ├── meta.json      # título, temas, autoria, publicação...
+│       ├── capa.webp
+│       └── <slug>.pdf
+├── src/                   # plataforma web (Next.js)
+├── scripts/               # validação do acervo e cópia dos arquivos para o site
+├── tests/
+└── docs/DECISOES.md       # decisões técnicas e pendências
 ```
 
 ## 🚀 Como usar
@@ -127,4 +137,21 @@ Dúvidas, sugestões ou interesse em colaborar? Abra uma *issue* neste repositó
 
 ## ⚖️ Licença
 
-> Defina a licença antes de publicar. Para conteúdo educacional aberto, uma opção comum é a [Creative Commons](https://creativecommons.org/choose/) (por exemplo, CC BY-NC-SA 4.0).
+A licença do acervo ainda não foi definida pelos autores. Até essa definição, consulte os autores antes de reutilizar o material fora de sala de aula.
+
+## 🌐 Plataforma web
+
+Acesse a plataforma: [URL A SER CONFIGURADA]
+
+### Executar localmente
+
+Requer Node.js 20.9 ou superior.
+
+```bash
+npm install
+npm run dev
+```
+
+### Adicionar uma HQ
+
+Crie uma pasta em `hqs/<slug>/` com `meta.json`, capa e PDF. Consulte `CONTRIBUTING.md` para os requisitos e execute `npm run validate` antes de abrir um pull request.

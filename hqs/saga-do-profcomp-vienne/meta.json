@@ -1,0 +1,12 @@
+{
+  "titulo": "Saga do PROFCOMP",
+  "temas": ["Formação docente", "Tecnologias digitais"],
+  "autores": ["Vienne"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Primeira página da HQ: estudantes chegam à universidade; uma estudante de cabelos ruivos cacheados se pergunta “Será que vou conseguir?” e acompanha as aulas do PROFCOMP 2026.",
+  "pdf": "saga-do-profcomp-vienne.pdf",
+  "geradaComIA": true,
+  "publicada": true
+}
