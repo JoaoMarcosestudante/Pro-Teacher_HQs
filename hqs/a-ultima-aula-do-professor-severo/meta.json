@@ -1,0 +1,12 @@
+{
+  "titulo": "A Última Aula do Professor Severo",
+  "subtitulo": "Uma reflexão sobre práticas pedagógicas e diversidade educacional",
+  "temas": ["Práticas pedagógicas", "Diversidade", "Metodologias ativas", "Formação docente"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Capa: um professor de cabelos brancos aponta o dedo, com expressão brava, para uma turma desmotivada; balões de pensamento dos estudantes dizem “Não sou ouvido...” e “Cadê a diversidade na aula?”.",
+  "pdf": "a-ultima-aula-do-professor-severo.pdf",
+  "geradaComIA": true,
+  "publicada": true
+}

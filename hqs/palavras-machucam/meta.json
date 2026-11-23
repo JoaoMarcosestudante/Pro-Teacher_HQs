@@ -1,0 +1,13 @@
+{
+  "titulo": "Palavras Machucam",
+  "subtitulo": "Respeito no lugar de ofensas. Amizade no lugar da dor.",
+  "temas": ["Bullying", "Respeito", "Empatia"],
+  "autores": ["Josiane"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Capa: no pátio de uma escola, um menino de expressão triste é consolado por quatro colegas; cartazes na parede dizem “Diga não ao bullying!” e “Respeito é bom e faz bem!”.",
+  "pdf": "palavras-machucam.pdf",
+  "geradaComIA": true,
+  "publicada": true
+}

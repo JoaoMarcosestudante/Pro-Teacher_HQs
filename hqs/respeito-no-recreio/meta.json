@@ -1,0 +1,13 @@
+{
+  "titulo": "Respeito no Recreio",
+  "subtitulo": "Escolhas que transformam amizades!",
+  "temas": ["Bullying", "Respeito", "Amizade"],
+  "autores": ["David Cleiton"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Capa: um menino de óculos é cercado e abraçado por colegas no pátio da escola; balões mostram, antes, ele sozinho e, depois, comemorando com amigos.",
+  "pdf": "respeito-no-recreio.pdf",
+  "geradaComIA": true,
+  "publicada": true
+}

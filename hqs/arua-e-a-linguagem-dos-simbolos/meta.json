@@ -1,0 +1,12 @@
+{
+  "titulo": "Aruã e a Linguagem dos Símbolos",
+  "temas": ["Cultura indígena", "Saberes tradicionais", "Tecnologia"],
+  "autores": ["Romário"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Capa: um menino indígena sorri ao lado de sua comunidade na floresta, à beira de um rio ao pôr do sol; à direita, símbolos feitos com sementes se transformam em código binário, ligado a um notebook e a um tablet.",
+  "pdf": "arua-e-a-linguagem-dos-simbolos.pdf",
+  "geradaComIA": true,
+  "publicada": true
+}

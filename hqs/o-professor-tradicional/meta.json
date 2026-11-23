@@ -1,0 +1,11 @@
+{
+  "titulo": "O Professor Tradicional",
+  "temas": ["Formação docente", "Práticas pedagógicas"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Capa: um professor grisalho de terno escuro e expressão séria, em pé em um laboratório de informática com estudantes desmotivados; sobre a mesa, uma palmatória de madeira.",
+  "pdf": "o-professor-tradicional.pdf",
+  "geradaComIA": true,
+  "publicada": true
+}

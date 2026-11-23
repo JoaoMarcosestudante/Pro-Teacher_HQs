@@ -1,0 +1,13 @@
+{
+  "titulo": "A Saga do PROFCOMP 2026",
+  "subtitulo": "Uma família. Um propósito. Um futuro que começa hoje!",
+  "temas": ["Formação docente", "Tecnologias digitais", "Amazônia"],
+  "autores": ["Waldo"],
+  "ano": 2026,
+  "idioma": "pt-BR",
+  "capa": "capa.webp",
+  "capaAlt": "Capa: uma família, com pai, mãe e duas crianças, caminha em direção ao campus de Marabá da Unifesspa, cercada de vegetação; placas indicam educação, ciência, tecnologia, inovação, Amazônia e futuro.",
+  "pdf": "a-saga-do-profcomp-2026-waldo.pdf",
+  "geradaComIA": true,
+  "publicada": true
+}

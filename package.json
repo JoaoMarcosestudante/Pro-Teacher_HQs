@@ -1,0 +1,47 @@
+{
+  "name": "pro-teacher-hqs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Catálogo público das HQs pedagógicas do projeto Pro-Teacher (Unifesspa).",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0 <25"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "predev": "npm run sync-assets",
+    "build": "next build",
+    "prebuild": "npm run sync-assets",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate": "tsx scripts/validate-content.ts",
+    "sync-assets": "tsx scripts/sync-assets.ts"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.6",
+    "prettier": "3.10.1",
+    "tailwindcss": "4.3.5",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "vitest": "5.1.1"
+  },
+  "overrides": {
+    "typescript-eslint": "8.73.0"
+  }
+}
